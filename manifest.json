@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Click To Call",
+  "version": "1.0.0",
+  "description": "Click To Call Extention",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://www.gstatic.com https://*.firebaseio.com; object-src 'self'"
+}
