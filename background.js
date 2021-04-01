@@ -2,17 +2,6 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log('Chrome Extension Installed');
 });
 
-// var notifOptions = {
-//   type: 'basic',
-//   iconUrl: 'icon48.png',
-//   title: 'Example!',
-//   message: 'Example Message!'
-// };
-// chrome.notifications.create(
-//   'limitNotif' + new Date().getTime(), // Id must be unique for every notification
-//   notifOptions
-// );
-
 var firebaseConfig = {
   apiKey: "AIzaSyBvhFHgrJc2KjbDO7gNnP4turAPIfUQPnE",
   authDomain: "click-to-call-extention.firebaseapp.com",
